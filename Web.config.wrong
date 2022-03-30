@@ -1,9 +1,0 @@
-<system.webServer>
-  <httpProtocol>
-    <customHeaders>
-      <remove name="X-Powered-By" />
-      <add name="X-Frame-Options" value="SAMEORIGIN" />
-      <add name="Content-Security-Policy" value="frame-ancestors 'https://*.sitecoresandbox.cloud' 'self'" />
-    </customHeaders>
-  </httpProtocol>
-</system.webServer>
